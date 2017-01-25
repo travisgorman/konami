@@ -6,7 +6,7 @@ window.addEventListener( 'keydown', (e) => {
 	pressed.splice(-code.length - 1, pressed.length - code.length)
 
 	if (pressed.join('') === code){
-		alert("DANG BRAH. that was siiiick")
+		cornify_add()
 	}
 	console.log( code )
 	console.log( pressed )
