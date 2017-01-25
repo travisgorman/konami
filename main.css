@@ -4,13 +4,15 @@
 html, body {
 	margin: 0;
 	background: #34BD87;
+	font-family: sans-serif;
+	color: #333;
 }
 .container {
 	padding: 0;
 	background: red;
-	border: 1px solid black;
 }
 header {
+	text-align: center;
 	padding: 1.5rem;
 	background: #F5DA55;
 }
