@@ -1,3 +1,19 @@
-body {
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+html, body {
+	margin: 0;
 	background: #34BD87;
+}
+.container {
+	padding: 0;
+	background: red;
+	border: 1px solid black;
+}
+header {
+	padding: 1.5rem;
+	background: #F5DA55;
+}
+p {
+	margin: 0;
 }
